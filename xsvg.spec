@@ -1,12 +1,12 @@
 Summary:	X11 SVG viewer
 Summary(pl):	Przegl±darka SVG dla X11
 Name:		xsvg
-Version:	0.1.2
+Version:	0.2.0
 Release:	1
 License:	BSD-like
 Group:		X11/Applications/Graphics
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
-# Source0-md5:	4c54ec3e66671465e86f8cfba6220ea4
+# Source0-md5:	f9bdbcbb7346a60c227630b4f77ec80a
 URL:		http://www.xsvg.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -41,10 +41,8 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post	-p /sbin/ldconfig
-%postun	-p /sbin/ldconfig
-
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog NEWS README
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/xsvg
+%{_mandir}/man1/xsvg.1*
