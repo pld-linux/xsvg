@@ -2,7 +2,7 @@ Summary:	X11 SVG viewer
 Summary(pl):	Przegl±darka SVG dla X11
 Name:		xsvg
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		X11/Applications/Graphics
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
