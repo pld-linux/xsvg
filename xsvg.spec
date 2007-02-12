@@ -1,5 +1,5 @@
 Summary:	X11 SVG viewer
-Summary(pl):	Przegl±darka SVG dla X11
+Summary(pl.UTF-8):   PrzeglÄ…darka SVG dla X11
 Name:		xsvg
 Version:	0.2.1
 Release:	2
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The xsvg program is a viewer for SVG files.
 
-%description -l pl
-Program xsvg to przegl±darka plików SVG.
+%description -l pl.UTF-8
+Program xsvg to przeglÄ…darka plikÃ³w SVG.
 
 %prep
 %setup -q
