@@ -1,5 +1,5 @@
 Summary:	X11 SVG viewer
-Summary(pl.UTF-8):   Przeglądarka SVG dla X11
+Summary(pl.UTF-8):	Przeglądarka SVG dla X11
 Name:		xsvg
 Version:	0.2.1
 Release:	2
